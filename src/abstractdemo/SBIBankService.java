@@ -1,4 +1,4 @@
 package abstractdemo;
 
-public class SBIBankService extends RBIBankService{
+public class SBIBankService {
 }

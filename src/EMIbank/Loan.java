@@ -1,6 +1,7 @@
 package EMIbank;
 
 public abstract class Loan {
+
     protected double principal;
     protected double interestRate;
     protected int repaymentPeriod;
