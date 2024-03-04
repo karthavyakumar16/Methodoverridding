@@ -19,14 +19,11 @@ public class CarDetails {
                 '}';
     }
 
-    public void display(){
-        return ;
-
-
-}
     public static void main(String[] args) {
         CarDetails carDetails=new CarDetails("tata","nexon","2020");
+        CarDetails carDetails1=new CarDetails("maruthi","alto","2022");
         System.out.println(carDetails);
+        System.out.println(carDetails1);
 
     }
 }

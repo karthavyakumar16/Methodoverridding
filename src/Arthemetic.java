@@ -10,8 +10,16 @@ public class Arthemetic {
         int c=a-b;
         return c;
     }
+    public int sub(int a,int b,int p){
+        int c=a-b-p;
+        return c;
+    }
     public int mul(int a,int b){
         int c=a*b;
+        return c;
+    }
+    public int mul(int a,int b,int d,int k){
+        int c=a*b*d*k;
         return c;
     }
     public int div(int a,int b){
@@ -23,7 +31,9 @@ public class Arthemetic {
         Arthemetic arthemetic=new Arthemetic();
         System.out.println("the addition value is"+arthemetic.add(6,8));
         System.out.println("the subraction value is"+arthemetic.sub(4,9));
+        System.out.println("the subraction value is"+arthemetic.sub(4,9,8));
         System.out.println("the multiplication value is"+arthemetic.mul(4,4));
+        System.out.println("the multiplication value is"+arthemetic.mul(4,4,5,4));
         System.out.println("the division value is"+arthemetic.div(10,2));
     }
 }
