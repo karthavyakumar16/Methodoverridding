@@ -2,6 +2,9 @@ package CarAbstract;
 
 
 public class Test {
+
+
+
     public static void main(String[] args) {
 
         MonthlyRent monthlyRent = new MonthlyRent("nexon", "2023",

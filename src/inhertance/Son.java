@@ -1,9 +1,9 @@
 package inhertance;
 
 public class Son extends Father{
-    public String number;
-    public void name(){
-        System.out.println("Father name"+name);
+    public String number="96522";
+  public void name(){
+       System.out.println("Father name"+name);
     }
     public void number(){
         System.out.println("Son number"+number);

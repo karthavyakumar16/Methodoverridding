@@ -19,7 +19,7 @@ public class SBIBankLoginProcess implements BankLoginService{
                     validOtp = sbiBankLoginService.validationOTP(UUID.randomUUID().toString());
                 }catch (InvalidOTPException invalidOTPException) {
                     System.out.println("Error Occured" + invalidOTPException);
-                    throw new RuntimeException(invalidOTPException.getCode);
+                  //  throw new RuntimeException(invalidOTPException.getCode);
                 }catch(Exception e){
                 }
                 if(validOtp){
