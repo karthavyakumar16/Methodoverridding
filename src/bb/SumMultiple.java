@@ -1,21 +1,19 @@
 package bb;
 
 public class SumMultiple {
-    public int number=3;
-    public int range=100;
-  public static int findsummultiples(int number,int range){
+
+  public static int findsummultiples(int number1,int number2,int range){
       int sum=0;
-      for(int i=1;i<=range;i++){
-          if(i%number==0){
-              sum+=i;
+      for(int i=1;i<range;i++){
+          if(i%number1==0||i%number2==0){
+              sum=sum+i;
           }
       }
       return sum;
   }
 
     public static void main(String[] args) {
-        SumMultiple sub=new SumMultiple();
-        System.out.println(sub.number+" "+ sub.range);
+        System.out.println(SumMultiple.findsummultiples(3,5,10));
 
     }
 }
